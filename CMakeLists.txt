@@ -7,3 +7,4 @@ add_executable(algo main.c)
 
 add_subdirectory(struct-array)
 add_subdirectory(pointer-array)
+add_subdirectory(lists)
