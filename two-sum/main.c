@@ -33,4 +33,5 @@ int* twoSum(const int* nums, int numsSize, int target, int* returnSize){
     return NULL;
 }
 
-// 总结
+// 总结:指针传递问题，returnSize首先定义为基本类型，然后通过指针的方式进行传递过去
+// 返回的指针数组通过数组下标的方式进行访问
